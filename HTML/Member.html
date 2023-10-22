@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI Member</title>
+    <script type="text/javascript" src="../JS/valid.js" defer></script>
+    <link rel="stylesheet" href="../CSS/member.css">
+    <script src="https://kit.fontawesome.com/c149c7a3bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <img src="../Assets/Logo.png">
+            <ul>
+                <li><a href="../HTML/Home.html">Home</a></li>
+                <li><a href="../HTML/Gallery.html">Gallery</a></li>
+                <li><a href="../HTML/About Us.html">About Us</a></li>
+                <li><a href="../HTML/Member.html">Member</a></li>
+                <li><a href="../HTML/Contact Us.html">Contact Us</a></li>
+            </ul>
+    </nav>
+    <div class="container">
+        <div class="tittle">
+            <h2>HELLO!</h2>
+            <p>Already a member?  <a href="Login.html">Log in</a></p>
+            <br>
+        </div>
+        <form action="#">
+                <div class="logo">
+                    <br>
+                    <img src="../Assets/logogitar.png">
+                </div>
+            <hr class="h">
+            <br>
+
+        <div class="name">
+            <label for="#">Full name</label>
+            <input type="text" id="usrnm">
+            <div class="errMsg"><p id="errName">Error Message</p></div>
+        </div>
+
+        <div class="eml">
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="EmL">
+            <br>
+            <div class="errMsg"><p id="errEml">Error Message</p></div>
+        </div>
+
+        <div class="gndr">
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" name="gender" id="Gndr">
+            <label for="gender">Male</label>
+
+            <input type="radio" name="gender" id="Gndr">
+            <label for="gender">Female</label>
+            <div class="errMsg"><p id="errGndr">Error Message</p></div>
+        </div>
+
+            <br>
+        <div class="pass">
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="Pass">
+            <br>
+            <div class="errMsg"><p id="errPass">Error Message</p></div>
+        </div>
+
+        <div class="chk">
+            <input type="checkbox" id="agreement">
+            <label for="agree">I agree <a href="#">Terms and Conditions</a></label>
+            <div class="errMsg"><p id="errChk">Error Message</p></div>
+        </div>
+
+        <div class="rgstr">
+            <input type="submit" value="REGISTER" id="submitbutton">
+        </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="sub_nav">
+            <h2>
+                INFORMATION
+            </h2>
+            <hr>
+            <p>
+                About TANAKA
+            </p>
+            <p>
+                Store
+            </p>
+            <p>
+                Work with us
+            </p>
+        </div>
+        <div class="sub_nav">
+            <h2 class="help">
+                HELP
+            </h2>
+            <hr>
+            <p>
+                FAQ
+            </p>
+            <p>
+                Customer Service
+            </p>
+            <p>
+                Contacts
+            </p>
+        </div>
+
+        
+        <div class="socialmedia">
+            <a href="https://facebook.com/" class="fb">
+                <i class="fab fa-facebook">
+                </i>
+            </a>
+            <a href="https://twitter.com/" class="twt">
+                <i class="fab fa-twitter">
+                </i>
+            </a>
+            <a href="https://instagram.com/" class="ig">
+                <i class="fab fa-instagram">
+                </i>
+            </a>
+            <a href="https://whatsapp.com" class="wa">
+                <i class="fab fa-whatsapp">
+                </i>
+            </a>
+        </div>
+    
+
+        <div class="copy-div">
+            <h2 class="copyright">
+                Copyright &copy; Tanaka Guitar Co., LTD. The entire content and 
+                <br>information of this site is copyright protected.<br>
+            </h2>
+        </div>    
+        <div class="logofoot">
+            <img src="../Assets/logogitar.png">
+        </div>
+    </footer>
+</body>
+</html>
